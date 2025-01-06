@@ -11,15 +11,15 @@ const SignUp = () => {
   const [password,setPassword] = useState("")
   // const [register, setRegister] = useState(false);
 
-  const configuration = {
-    method: "post",
-    url: "http://localhost:5000/api/user/signup",
-    data:{
-      username,
-      email,
-      password
-    }
-  };
+  // const configuration = {
+  //   method: "post",
+  //   url: "http://localhost:5000/api/user/snup",
+  //   data:{
+  //     username,
+  //     email,
+  //     password
+  //   }
+  // };
 
 
 
