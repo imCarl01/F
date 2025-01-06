@@ -1,0 +1,60 @@
+               {/* <Link to="/product/single" state={{ image: product1, title: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000" }} className='linkss'>
+                <Card image={product1} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000" />
+              </Link>
+
+              <Link to="/product/single" state={{ image: product2, title: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000" }} className='linkss'>
+                <Card image={product2} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+              </Link>
+              
+              <Link to="/product/single" state={{ image: product3, title: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000" }} className='linkss'>
+                <Card image={product3} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+              </Link>
+              
+              <Link to="/product/single" state={{ image: product4, title: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000" }} className='linkss'>
+                <Card image={product4} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+              </Link>
+              
+              <Link to="/product/single" state={{ image: product5, title: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000" }} className='linkss'>
+                <Card image={product5} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+              </Link>
+              
+              <Link to="/product/single" state={{ image: product6, title: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000" }} className='linkss'>
+                <Card image={product6} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+              </Link>
+              
+              <Link to="/product/single" state={{ image: product7, title: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000" }} className='linkss'>
+                <Card image={product7} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+              </Link>
+              
+              <Link to="/product/single" state={{ image: product7, title: "Syltherine", desc: "Stylish cafe chair", price: "Rp 2.500.000" }} className='linkss'>
+                <Card image={product4} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+              </Link> */}
+
+
+              {/* <div className="swipper">
+        <div className="quote">
+          <h2>50+ Beautiful rooms 
+          inspiration</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <div className="buttn">
+            Explore now
+          </div>
+
+        </div>
+
+        <div className="slider">
+            <Slider {...settings}>
+                <div>
+                <Card image={product7} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+                </div>
+                <div>
+                <Card image={product7} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+                </div>
+                <div>
+                <Card image={product7} title="Syltherine" desc="Stylish cafe chair" price="Rp 2.500.000"/>
+                </div>
+            </Slider>
+        </div>
+     
+      </div> */}

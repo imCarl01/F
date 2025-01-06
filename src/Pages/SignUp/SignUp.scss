@@ -1,0 +1,167 @@
+.signUp {
+    display: flex;
+    height: 100vh;
+  
+    .sectionImage {
+      position: relative;
+      width: 80%;
+      img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+      }
+      .overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+  
+        h2 {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+  
+        p {
+          margin-top: 10px;
+          font-size: 1rem;
+        }
+  
+        .signInBtn {
+          margin-top: 20px;
+          padding: 10px 20px;
+          background-color: #333;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #444;
+          }
+        }
+      }
+    }
+  
+    .register {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 50px;
+      text-align: center;
+  
+      .name{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .name h3 {
+        font-size: 1.5rem;
+        font-weight: bold;
+        span {
+          color: #6a1b9a;
+          font-weight: bold;
+        }
+      }
+  
+      .aim h1 {
+        font-size: 1rem;
+        margin: 20px 0;
+      }
+  
+      .registrationForm {
+        width: 100%;
+        .thefrom {
+          .formGroup {
+            margin-bottom: 20px;
+            text-align: left;
+  
+            label {
+              font-size: 0.9rem;
+              font-weight: bold;
+              color: #444;
+            }
+  
+            input {
+              width: 100%;
+              padding: 10px;
+              margin-top: 5px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              font-size: 1rem;
+            }
+          }
+  
+          .signUpBtn {
+            width: 100%;
+            padding: 10px;
+            background-color: #B88E2F;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+  
+            &:hover {
+              background-color: #5a138a;
+            }
+          }
+  
+          .or {
+            margin: 20px 0;
+            font-size: 0.9rem;
+            color: #999;
+          }
+
+          .google{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+          }
+  
+          .googleSignUp {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            padding: 10px;
+            background-color: #fff;
+            color: #444;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+  
+            img {
+              width: 20px;
+              height: 20px;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px){
+    .signUp{
+      .sectionImage{
+        display: none;
+      }
+      .aim{
+        display: block;
+        margin: 20px;
+        padding: 0;
+
+      }
+      .register{
+        flex-grow: 1;
+      }
+    }
+    
+  }
+  

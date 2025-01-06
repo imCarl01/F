@@ -1,0 +1,132 @@
+.contactInformation{
+    .heroImage{
+        background-image: url('../Home/image/Rectangle\ 1.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    }
+
+    .getInTouch{
+        text-align: center;
+    }
+    
+    .holder{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 30px;
+        flex-wrap: wrap;
+        
+
+        .holder1{
+            .address{
+                display: flex;
+                justify-content:flex-start;
+                align-items: center;
+                gap: 0 10px;
+                margin-top: 70px;
+
+                .icon{
+                    font-size: 30px;
+                }
+            }
+        }
+
+        .theForm{
+            display: flex;
+            flex-direction: column;
+            justify-items:center;
+            align-items: center;
+
+            label{
+                
+                text-align: end;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                align-self: flex-start;
+            }
+            .input1{
+                width: 300px;
+                height: 50px;
+                padding: 10px;
+                border: 1px solid rgb(214, 214, 214);
+                border-radius: 5px;
+            }
+            .input2{
+                width: 300px;
+                height: 100px;
+                padding: 10px;
+                border: 1px solid rgb(214, 214, 214);
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+
+            button{
+                width: 150px;
+                height: 50px;
+                color: #ffffff;
+                background-color: #B88E2F;
+                border: none;
+                margin-bottom: 20px;
+                border-radius: 5px;
+                
+            }
+        }
+
+
+    }
+
+    .frame{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F9F1E7;
+        padding: 50px 30px;
+
+        .highQuality{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 0 10px;
+
+            .icon{
+                font-size: 3rem;
+            }
+        }
+    }
+}
+@media (max-width: 480px){
+    .contactInformation{
+
+        .getInTouch{
+            padding: 0 20px;
+        }
+
+        .frame{
+            display: flex;
+            background-color: #F9F1E7;
+            flex-direction: column;
+    
+            .highQuality{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                .det{
+                    
+                    text-align: center;
+                }
+    
+                .icon{
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+}
